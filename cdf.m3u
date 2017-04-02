@@ -1,0 +1,22 @@
+#EXTM3U
+
+#EXTINF:0,-CDF-
+
+#EXTINF:-1 tvg-logo="http://i.imgur.com/742eH1R.png" group-title="CDF",CDF Premium 1 
+http://edge6.livesports.pw/live/vercdf762fe9fba2e0fd1c144/index.m3u8
+#EXTINF:-1 tvg-logo="http://i.imgur.com/742eH1R.png" group-title="CDF",CDF Premium 2
+http://cdn7.verliga.pw/live/cdf/index.m3u8
+#EXTINF:-1 tvg-logo="http://i.imgur.com/742eH1R.png" group-title="CDF",CDF Premium 3 
+https://hls.ssh101.com/live/rtsports/index.m3u8
+#EXTINF:-1 tvg-logo="http://i.imgur.com/742eH1R.png" group-title="CDF",CDF Premium 4
+https://hls.ssh101.com/live/lfcn/index.m3u8
+#EXTINF:-1 tvg-logo="http://i.imgur.com/742eH1R.png" group-title="CDF",CDF Premium 5 HD
+http://sjc-uhls-proxy-beta02.ustream.tv/watch/playlist.m3u8?appType=103&appVersion=3&conn=wifi&cid=23025723&stream=1&connectionId=oldurl-8287b0bf699f4ca590ae3a9e52ca907ce483e60f&group=iphone
+#EXTINF:-1 tvg-logo="http://i.imgur.com/742eH1R.png" group-title="CDF",CDF Premium 6
+http://sjc-uhls-proxy-beta02.ustream.tv/watch/playlist.m3u8?appType=103&appVersion=3&conn=wifi&cid=23075310&stream=1&connectionId=oldurl-8287b0bf699f4ca590ae3a9e52ca907ce483e60f&group=iphone
+#EXTINF:-1 tvg-logo="http://i.imgur.com/742eH1R.png" group-title="CDF",CDF Premium 7
+http://sjc-uhls-proxy-beta02.ustream.tv/watch/playlist.m3u8?appType=103&appVersion=3&conn=wifi&cid=23051469&stream=1&connectionId=oldurl-c50b8948d5c833aa5eb5c99e442e1ff4ce57818e&group=iphone
+#EXTINF:-1 tvg-logo="http://i.imgur.com/742eH1R.png" group-title="CDF",CDF Premium 8
+http://sjc-uhls-proxy-beta02.ustream.tv/watch/playlist.m3u8?appType=103&appVersion=3&conn=wifi&cid=23026244&stream=1&connectionId=oldurl-989c94804c015425e41f5886dbb7ae58ef23be77&group=iphone
+
+
