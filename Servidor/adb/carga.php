@@ -127,7 +127,7 @@ mysqli_set_charset($Conn,'utf8');
 	$FlechaP = "1010.0";
 	
 	//Calculo promedio de direccion viento
-	$query_info = "SELECT DIR FROM datos ORDER BY FECHA DESC limit 4";
+	$query_info = "SELECT DIR FROM datos ORDER BY FECHA DESC limit 12";//hora
 	$info = $Conn -> query($query_info);
 	$ultima = $info -> fetch_row();
 	$PromVientoaux = 0;
@@ -144,7 +144,7 @@ mysqli_set_charset($Conn,'utf8');
 	$MaxViento = round($ultima[0],2);	
 	
     //Calcular rafagas de ultima hora 
-    $query_info = "SELECT VEL FROM datos ORDER BY FECHA DESC limit 4";
+    $query_info = "SELECT VEL FROM datos ORDER BY FECHA DESC limit 12";
 	$info = $Conn -> query($query_info);
 	$ultima = $info -> fetch_row();
 	$Rafagas = 0;
@@ -158,7 +158,7 @@ mysqli_set_charset($Conn,'utf8');
 	
 		
     //Calcular rafagas de ultimas 4 horas 
-    $query_info = "SELECT VEL FROM datos ORDER BY FECHA DESC limit 16";
+    $query_info = "SELECT VEL FROM datos ORDER BY FECHA DESC limit 48";
 	$info = $Conn -> query($query_info);
 	$ultima = $info -> fetch_row();
 	$MRafaga = 0;
