@@ -135,7 +135,7 @@ mysqli_set_charset($Conn,'utf8');
 		$PromVientoaux = $PromVientoaux + round($ultima[0],2);	
 	}while($ultima = $info -> fetch_row());
 	
-	$PromViento = $PromVientoaux / 4;	
+	$PromViento = $PromVientoaux / 12;	
 	
 	//Calcular Viento del dia maxima velocidad
     $query_info = "SELECT MAX(VEL) FROM datos WHERE CAST(FECHA AS DATE) = '$dia'";
